@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}PiroPiro! web{%endblock%}</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/login.css">
+    <link rel="stylesheet" href="../static/normalize.css">
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+          <form class="login-form" action="/login" method="post">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button type="submit">Iniciar sesion</button>
+            <p class="message">no te has registrado? <a href="/register">crea una cuenta</a></p>
+          </form>
+        </div>
+      </div>
+</body>
+
+</html>
