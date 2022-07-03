@@ -1,7 +1,7 @@
 # PIROPIROWEB
 This is a web for the movil application named: "Piropiro!", in this web the user can accept or reject a date. 
 
-In that case that the user reject the date, the web is gonna send a e-mail saying something like: 
+In that case that the user reject the date, the web is gonna send an e-mail saying something like: 
 
 "Hi, name of the pacient.
 
